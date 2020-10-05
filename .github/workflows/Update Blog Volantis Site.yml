@@ -1,15 +1,14 @@
 name: Update Blog Volantis Site
 
 on: 
-  release:
-    types: [published, created, edited]
   push:
-    tags:
-      - 'v*'
     branches: 
       - master
   workflow_dispatch:
     inputs:
+      name:
+        description: '手动触发'
+        required: false
 
 jobs:
   deploy:
