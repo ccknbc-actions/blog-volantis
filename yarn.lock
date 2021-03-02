@@ -493,29 +493,29 @@ hexo-fs@^3.0.1, hexo-fs@^3.1.0:
     graceful-fs "^4.1.11"
     hexo-util "^2.0.0"
 
-hexo-generator-archive@^1.0.0:
+hexo-generator-archive@1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/hexo-generator-archive/download/hexo-generator-archive-1.0.0.tgz#ad2afb12232a65e2f8608fc1ca3f19162fb63786"
-  integrity sha1-rSr7EiMqZeL4YI/Byj8ZFi+2N4Y=
+  resolved "https://registry.yarnpkg.com/hexo-generator-archive/-/hexo-generator-archive-1.0.0.tgz#ad2afb12232a65e2f8608fc1ca3f19162fb63786"
+  integrity sha512-24TeanDGpMBUIq37DHpSESQbeN6ssZ06edsGSI76tN4Yit50TgsgzP5g5DSu0yJk0jUtHJntysWE8NYAlFXibA==
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-category@^1.0.0:
+hexo-generator-category@1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/hexo-generator-category/download/hexo-generator-category-1.0.0.tgz#cd2a2b03eb326da3ef821d6e29408488cc132eb5"
-  integrity sha1-zSorA+sybaPvgh1uKUCEiMwTLrU=
+  resolved "https://registry.yarnpkg.com/hexo-generator-category/-/hexo-generator-category-1.0.0.tgz#cd2a2b03eb326da3ef821d6e29408488cc132eb5"
+  integrity sha512-kmtwT1SHYL2ismbGnYQXNtqLFSeTdtHNbJIqno3LKROpCK8ybST5QVXF1bZI9LkFcXV/H8ilt8gfg4/dNNcQQQ==
   dependencies:
     hexo-pagination "1.0.0"
 
-hexo-generator-index@^2.0.0:
+hexo-generator-index@2.0.0:
   version "2.0.0"
-  resolved "https://registry.npm.taobao.org/hexo-generator-index/download/hexo-generator-index-2.0.0.tgz#15e71f4d28ee9d2172e2d77e8d1dba04882edc8f"
-  integrity sha1-FecfTSjunSFy4td+jR26BIgu3I8=
+  resolved "https://registry.yarnpkg.com/hexo-generator-index/-/hexo-generator-index-2.0.0.tgz#15e71f4d28ee9d2172e2d77e8d1dba04882edc8f"
+  integrity sha512-q/29Vj9BZs0dwBcF+s9IT8ymS4aYZsDwBEYDnh96C8tsX+KPY5v6TzCdttz58BchifaJpP/l9mi6u9rZuYqA0g==
   dependencies:
     hexo-pagination "1.0.0"
     timsort "^0.3.0"
 
-hexo-generator-json-content@^4.2.3:
+hexo-generator-json-content@4.2.3:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/hexo-generator-json-content/-/hexo-generator-json-content-4.2.3.tgz#1cabaf53319c4ca5be41a34a501f280e76cae60b"
   integrity sha512-XGqCaTUr6+X8Ty/YvRi+0eh0DJgHcp+lgBhn+Sgyh6ev40P0cwamwJyaZroTdHt8GPoBwbSGVu0H/CdzEf0lFA==
@@ -524,7 +524,7 @@ hexo-generator-json-content@^4.2.3:
     keyword-extractor latest
     moment latest
 
-hexo-generator-search@^2.4.1:
+hexo-generator-search@2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/hexo-generator-search/-/hexo-generator-search-2.4.1.tgz#623d078f4a94fe282f76ea7284f38a58183565a7"
   integrity sha512-ojJT7huvda2F6rnv3pik4Yuk2Djj9iCDOucobynzbG8arQRqAyJf7wVDH3Hppr2vkpmigrLuPSXpuJCm2FbP2A==
@@ -532,10 +532,10 @@ hexo-generator-search@^2.4.1:
     nunjucks "^3.0.1"
     utils-merge "^1.0.0"
 
-hexo-generator-tag@^1.0.0:
+hexo-generator-tag@1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/hexo-generator-tag/download/hexo-generator-tag-1.0.0.tgz#54ec23de9409c75584ea81e36057a59031b022f1"
-  integrity sha1-VOwj3pQJx1WE6oHjYFelkDGwIvE=
+  resolved "https://registry.yarnpkg.com/hexo-generator-tag/-/hexo-generator-tag-1.0.0.tgz#54ec23de9409c75584ea81e36057a59031b022f1"
+  integrity sha512-JDoB2T1EncRlyGSjuAhkGxRfKkN8tq0i8tFlk9I4q2L6iYxPaUnFenhji0oxufTADC16/IchuPjmMk//dt8Msg==
   dependencies:
     hexo-pagination "1.0.0"
 
@@ -558,22 +558,22 @@ hexo-pagination@1.0.0:
   resolved "https://registry.npm.taobao.org/hexo-pagination/download/hexo-pagination-1.0.0.tgz#c9c0ca3665267b9e9d0a89fc3edcaf3276907dc1"
   integrity sha1-ycDKNmUme56dCon8PtyvMnaQfcE=
 
-hexo-renderer-ejs@^1.0.0:
+hexo-renderer-ejs@1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/hexo-renderer-ejs/download/hexo-renderer-ejs-1.0.0.tgz#43c4de49eeae224036a457df860eb1c14c68b4b4"
-  integrity sha1-Q8TeSe6uIkA2pFffhg6xwUxotLQ=
+  resolved "https://registry.yarnpkg.com/hexo-renderer-ejs/-/hexo-renderer-ejs-1.0.0.tgz#43c4de49eeae224036a457df860eb1c14c68b4b4"
+  integrity sha512-O925i69FG4NYO62oWORcPhRZZX0sPx1SXGKUS5DaR/lzajyiXH5i2sqnkj0ya0rNLXIy/D7Xmt7WbFyuQx/kKQ==
   dependencies:
     ejs "^2.6.1"
 
-hexo-renderer-marked@^3.0.0:
+hexo-renderer-marked@3.2.0:
   version "3.2.0"
-  resolved "https://registry.npm.taobao.org/hexo-renderer-marked/download/hexo-renderer-marked-3.2.0.tgz?cache=0&sync_timestamp=1599208093577&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fhexo-renderer-marked%2Fdownload%2Fhexo-renderer-marked-3.2.0.tgz#a5e18b4d69b61706142427d12c4c542461e7ffa2"
-  integrity sha1-peGLTWm2FwYUJCfRLExUJGHn/6I=
+  resolved "https://registry.yarnpkg.com/hexo-renderer-marked/-/hexo-renderer-marked-3.2.0.tgz#a5e18b4d69b61706142427d12c4c542461e7ffa2"
+  integrity sha512-p1ICjucz9VOIbSmK198BQBEYnSyF/Z5pNh0u7PmvZihfJZL2V4iyF/G88BBvwDCCVJG2oYsgLam6nmn8JnishQ==
   dependencies:
     hexo-util "^2.1.0"
     marked "^1.0.0"
 
-hexo-renderer-stylus@^2.0.1:
+hexo-renderer-stylus@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/hexo-renderer-stylus/-/hexo-renderer-stylus-2.0.1.tgz#c65566e97e9058a52e46c82b0c45cf561f4b94cb"
   integrity sha512-1S4AG8RtzWqVrqKIYv2AJ4UYms5SHDjkdYS7IiGwgUejL24agbTktpAbnH2cG1JWZ15SRqYN0UGB9aAoSAgvEA==
@@ -581,10 +581,10 @@ hexo-renderer-stylus@^2.0.1:
     nib "^1.1.2"
     stylus "^0.54.8"
 
-hexo-server@^2.0.0:
+hexo-server@2.0.0:
   version "2.0.0"
-  resolved "https://registry.npm.taobao.org/hexo-server/download/hexo-server-2.0.0.tgz#1ad92cc8a7d3528fec6ffa65ff8453f242f7983f"
-  integrity sha1-GtksyKfTUo/sb/pl/4RT8kL3mD8=
+  resolved "https://registry.yarnpkg.com/hexo-server/-/hexo-server-2.0.0.tgz#1ad92cc8a7d3528fec6ffa65ff8453f242f7983f"
+  integrity sha512-GnxCU0hjepjmqMENcKOKxpzOajb9YrjQczWsZPXU25l5Ze+M9KJLSVljIRFR+ikDRIPDtXaUY2WgYrWPbNEGfg==
   dependencies:
     bluebird "^3.5.5"
     chalk "^4.0.0"
@@ -625,7 +625,7 @@ hexo-util@latest:
     strip-indent "^3.0.0"
     striptags "^3.1.1"
 
-hexo@^5.2.0:
+hexo@5.3.0:
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/hexo/-/hexo-5.3.0.tgz#477362f13b676d7d79ecb353418ff830eb27761c"
   integrity sha512-Q8JPpXYDemyIzRIjRx3555HALvnOqIeCj4NnW6T8aiZpi9hgZxTnpFDY2fBPdKIPNc5GvP4mL/705znxAM8kcA==
